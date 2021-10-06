@@ -1,0 +1,32 @@
+{
+    "name": "coding-interview-practice",
+    "version": "1.0.0",
+    "description": "Practice for coding interviews",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --exec babel-node src/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dnmiko/coding-interview-practice.git"
+    },
+    "keywords": [
+        "javascript",
+        "algorithms",
+        "data",
+        "structures"
+    ],
+    "author": "Diego Cifuentes",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/dnmiko/coding-interview-practice/issues"
+    },
+    "homepage": "https://github.com/dnmiko/coding-interview-practice#readme",
+    "devDependencies": {
+        "@babel/core": "^7.15.5",
+        "@babel/node": "^7.15.4",
+        "@babel/preset-env": "^7.15.6",
+        "nodemon": "^2.0.13"
+    }
+}
